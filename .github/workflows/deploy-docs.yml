@@ -34,11 +34,11 @@ jobs:
           node-version: 20
           cache: pnpm
 
-
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
+          pnpm add -D sass &&
           pnpm run docs:build
           > docs/.vuepress/dist/.nojekyll
 
