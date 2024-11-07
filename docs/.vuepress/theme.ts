@@ -15,9 +15,10 @@ export default hopeTheme({
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "chen571428/chen571428.github.io",
 
-  docsDir: "src",
+  docsDir: "docs",
+  docsBranch:"docs",
 
   // 导航栏
   navbar,
